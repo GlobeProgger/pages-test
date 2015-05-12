@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $h1('h1').text('New Headding');
+    $('h1').text('New Headding');
 
     $('div').hover
   (
