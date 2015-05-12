@@ -1,15 +1,17 @@
-$(document).ready(function () {
-
-    $('h1').text('New Headding');
-
+$(document).ready(function () 
+{
+ 
     $('div').hover
-  (
-    function () {
-        $(this).addClass('active');
-    },
-    function () {
-        $(this).removeClass('active');
-    }
-  );
+    (
+        function () 
+        {
+            $(this).addClass('active');
+        },
+    
+        function () 
+        {
+            $(this).removeClass('active');
+        }
+    );
 
 });
